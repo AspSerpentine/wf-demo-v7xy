@@ -1,6 +1,6 @@
 # Waterfall 3D Simulation – OpenGL C++
 
-## 🌊 Giới thiệu
+##  Giới thiệu
 
 Dự án mô phỏng cảnh **thác nước 3D** bằng ngôn ngữ lập trình **C++** kết hợp thư viện **OpenGL** và **GLFW**. Mục tiêu của dự án là thực hành kỹ thuật đồ họa máy tính bao gồm mô hình 3D, hiệu ứng nước, ánh sáng, texture và camera điều hướng.
 
