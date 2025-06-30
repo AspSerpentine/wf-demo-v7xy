@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\tools">
+      <UniqueIdentifier>{b4d915a0-e948-45d3-9042-900790cdd8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\material">
+      <UniqueIdentifier>{91118702-dc0e-48fd-9f56-7e096fed128f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\material\mountain">
+      <UniqueIdentifier>{b03c2a34-221e-4306-a27c-7d85c0460e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\material\ship">
+      <UniqueIdentifier>{c4f6b164-9f01-4195-83ce-9a256616d775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\material\skybox">
+      <UniqueIdentifier>{94645ad7-c3f1-4bd3-821a-cb6eb20eff3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{97007ea1-fabe-47ef-8ff1-260cdb2b6277}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\stb_image.h">
+      <Filter>Resource Files\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\texture.hpp">
+      <Filter>Resource Files\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\stb_image.cpp">
+      <Filter>Resource Files\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\texture.cpp">
+      <Filter>Resource Files\tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="material\mountain\Acc0_y1.jpg">
+      <Filter>Resource Files\material\mountain</Filter>
+    </Image>
+    <Image Include="material\mountain\glass_dif.png">
+      <Filter>Resource Files\material\mountain</Filter>
+    </Image>
+    <Image Include="material\ship\Leather0100_1_S.jpg">
+      <Filter>Resource Files\material\ship</Filter>
+    </Image>
+    <Image Include="material\ship\MetalBase0054_4_S.jpg">
+      <Filter>Resource Files\material\ship</Filter>
+    </Image>
+    <Image Include="material\ship\MetalBase0107_M.jpg">
+      <Filter>Resource Files\material\ship</Filter>
+    </Image>
+    <Image Include="material\ship\MetalBase0121_9_S.jpg">
+      <Filter>Resource Files\material\ship</Filter>
+    </Image>
+    <Image Include="material\ship\MetalBase0130_1_M.jpg">
+      <Filter>Resource Files\material\ship</Filter>
+    </Image>
+    <Image Include="material\ship\WoodFine0046_3_S.jpg">
+      <Filter>Resource Files\material\ship</Filter>
+    </Image>
+    <Image Include="material\ship\WoodFine0050_4_S.jpg">
+      <Filter>Resource Files\material\ship</Filter>
+    </Image>
+    <Image Include="material\skybox\back.jpg">
+      <Filter>Resource Files\material\skybox</Filter>
+    </Image>
+    <Image Include="material\skybox\bottom.jpg">
+      <Filter>Resource Files\material\skybox</Filter>
+    </Image>
+    <Image Include="material\skybox\front.jpg">
+      <Filter>Resource Files\material\skybox</Filter>
+    </Image>
+    <Image Include="material\skybox\left.jpg">
+      <Filter>Resource Files\material\skybox</Filter>
+    </Image>
+    <Image Include="material\skybox\right.jpg">
+      <Filter>Resource Files\material\skybox</Filter>
+    </Image>
+    <Image Include="material\skybox\top.jpg">
+      <Filter>Resource Files\material\skybox</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="material\mountain\plane-7.mtl">
+      <Filter>Resource Files\material\mountain</Filter>
+    </None>
+    <None Include="material\ship\ShipMoscow.mtl">
+      <Filter>Resource Files\material\ship</Filter>
+    </None>
+    <None Include="shader\model.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\model.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\modelwithlight.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\modelwithlight.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\particle.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\particle.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\skybox.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\skybox.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\water.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\water.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\simple.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shader\simple.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
